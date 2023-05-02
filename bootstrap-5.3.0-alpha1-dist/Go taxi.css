@@ -1,0 +1,331 @@
+body{
+    background-color: #f3f7ff;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 80px;
+    z-index: 100;
+    background-color: #f3f7ff;
+    box-shadow: 0 0 8px 0 rgb(62 62 62 / 15%);
+}
+
+
+
+.ab{
+    box-shadow: 0 5px 14px -3px #17bad1;
+    background: #17bad1;
+    border: none;
+    margin-left: 20px;
+    height: 60px;
+      
+}
+
+
+.m1{
+    
+    
+}
+
+    
+}
+ h1{
+    color:darkblue;
+    font-size: 40px;
+}
+.d1{
+    
+height: 20px; 
+width: 400px;
+ text-align: center;
+color: azure;
+position: absolute;
+right: 100px;
+top: 600px;
+bottom: 50px;
+color: black;
+
+}
+h2{
+   text-align: center;
+  
+}
+.h{
+    text-align: center;
+    font-size: 30px;
+    color: darkturquoise;  
+}
+.b4{
+    height: 50px;
+    width: 120px;
+    border-radius: 1px ;
+    border: 1px solid aqua;
+    background-color: aqua;
+    box-shadow: 12px;
+    margin-right: 300PX;
+    margin-bottom: -650px;
+}  
+.container{
+      display: flex;
+       grid-template-rows:repeat
+       (2, 200px) ;
+       height:480px ;
+       width: 1270px;
+        background-color: #f3f7ff;
+       padding: 20px;
+      
+}
+@media screen and  (max-width: 581px){
+   .container{
+    display:  block;
+   } 
+}
+   .grid1{
+       height: 400px;
+       width: 300px;
+       border-radius: 20px; 
+       color: #000000;
+       margin-top: 30px;
+       text-align: center;
+     
+       margin: 5px;
+       background-color: white;
+       
+       
+}
+.grid2{
+    height: 400px;
+    width: 300px;
+  border-radius: 20px;
+    color: black;
+    margin-top: 30px;
+    margin: 5px;
+    text-align: center;
+    background-color:white;
+}
+.grid3{
+    height: 400px;
+    width: 300px;
+  border-radius: 20px;
+    color: black;
+    margin-top: 30px;
+    margin: 5px;
+    text-align: center;
+    background-color: white;
+} 
+.grid4{
+    height: 400px;
+    width: 290px;
+  border-radius: 20px;
+    color: black;
+    margin-top: 30px;
+    margin: 5px;
+    text-align: center;
+    background-color: white;
+}
+.container12{
+    display: flex;
+     grid-template-rows:repeat(2, 200px) ;
+     height:480px ;
+     width: 1270px;
+     
+     background-color: #f3f7ff;
+     padding: 20px;
+    
+}
+@media screen and  (max-width:581px){
+    .container12{
+     display:  block;
+     margin-top: 1100px;
+    } 
+ }
+ @media screen and  (max-width:581px){
+    .vehicle5{
+     display:  block;
+     margin-top: 900px;
+    } 
+ }
+ .grid11{
+     height: 400px;
+     width: 300px;
+     border-radius: 20px; 
+     color: #000000;
+     margin-top: 30px;
+     text-align: center;
+   
+     margin: 5px;
+     background-color: white;
+     
+     
+}
+.grid12{
+  height: 400px;
+  width: 300px;
+border-radius: 20px;
+  color: black;
+  margin-top: 30px;
+  margin: 5px;
+  text-align: center;
+  background-color: white;
+}
+.grid13{
+  height: 400px;
+  width: 300px;
+border-radius: 20px;
+  color: black;
+  margin-top: 30px;
+  margin: 5px;
+  text-align: center;
+  background-color: white
+} 
+.grid14{
+  height: 400px;
+  width: 290px;
+border-radius: 20px;
+  color: black;
+  margin-top: 30px;
+  margin: 5px;
+  text-align: center;
+  background-color: white;
+}
+
+.big {
+    background: url(back-use.jpg) center bottom no-repeat #1753cd;
+   color: white;
+    min-height: 500px;
+    background-color: #1753cd;
+   }
+   @media screen and  (max-width: px){
+    .big{
+      margin-top: 500px;
+    }
+   }
+
+
+   .con{
+    height: 3px;
+    width: 3px;
+    margin-left: 700px;
+    margin-top: -300px;
+   }
+   .anime{
+    position: absolute;
+    top:20px px;
+    height: 60px;
+    background-image: url(ilustrasion-scene\ \(3\).png);
+   }
+   .vehicle1{
+    position: relative;
+    bottom: 100px;
+    right: 5px;
+    animation: vehicle1 14s linear infinite forwards;
+   }
+   .vehicle2{
+    position: relative;
+    bottom: 206px;
+    right: 2px;
+    animation: vehicle2 9s linear infinite;
+    height: 100px;
+   }
+   .vehicle3{
+    position: relative;
+    bottom:303px;
+    left: 15px;
+    animation: vehicle3 15s linear infinite forwards;
+   }
+   .vehicle4{
+    position: relative;
+    bottom:480px;
+    left: 15px;
+    animation: vehicle3 9s linear infinite forwards;
+   }
+   
+   @keyframes vehicle1{
+    0%{
+        transform: translate(5000px);
+    }
+    100%{
+        transform: translatex(0);
+    }
+   }
+   @keyframes vehicle2{
+    0%{
+        transform: translate(2900px);
+    }
+    100%{
+        transform: translatex();
+    }
+   }
+   @keyframes vehicle3{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translatex(2500px);
+    }
+   }
+   @keyframes vehicle4{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translatex(2000px);
+    }
+       
+   
+   
+   }
+   footer{
+    background: #000;
+    position: absolute;
+    top: 3300px;
+    width: 1270px;
+    color: white;
+    height: 400px;
+   }
+   @media screen and  (max-width:581px){
+    footer{
+     display:  block;
+     margin-top: 2000px;
+    } 
+ }
+button{
+    height: 50px;
+    width: 120px;
+    border-radius: 1px ;
+    border: 1px solid aqua;
+    background-color: aqua;
+    box-shadow: 12px;
+    position: absolute;
+    right: 300px;
+    bottom: 200px;
+}
+
+
+
+
+
+@media screen and (max-width: 694px){
+    .hand{
+     display: none;
+    }
+    .pic{
+        height: 180px;
+    }
+    .background{
+        position: absolute;
+        top: 740vh;
+    }
+    .after{
+        position: absolute;
+        top: 760vh;
+    }
+ }
+  
+
+    
+
